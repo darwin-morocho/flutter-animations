@@ -4,6 +4,7 @@ import 'pages/animated_widget.dart';
 import 'pages/transform/translate_animation.dart';
 import 'pages/transform/scale_animation.dart';
 import 'pages/transform/rotate_animation.dart';
+import 'pages/home_with_right_circular_menu.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: RotateAnimationPage(),
+      debugShowCheckedModeBanner: false,
+      home: HomeWithRightCircularMenuPage(),
     );
   }
 }
